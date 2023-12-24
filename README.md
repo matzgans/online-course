@@ -2,4 +2,4 @@
 Berikut screnshoot dari Project tersebut :
 <br>
 <h3>1. Dashboard</h3>
-<img src="https://drive.google.com/file/d/1BALS-Y-2chgRNEe_78Pt56GdwgLWqgwj/view?usp=drive_link" width="400" height="300">
+<img src="https://drive.google.com/file/d/1BALS-Y-2chgRNEe_78Pt56GdwgLWqgwj/view?usp=sharing" width="400" height="300">
