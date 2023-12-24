@@ -2,4 +2,4 @@
 Berikut screnshoot dari Project tersebut :
 <br>
 <h3>1. Dashboard</h3>
-<img src="https://drive.google.com/file/d/1BALS-Y-2chgRNEe_78Pt56GdwgLWqgwj/view?usp=sharing.jpg" width="400" height="300">
+![Screenshot (9)](https://github.com/matzgans/online-course/assets/107374954/3abc323a-dbdd-4468-acf8-dcffd6bb33ca)
