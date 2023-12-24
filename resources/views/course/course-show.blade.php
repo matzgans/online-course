@@ -7,7 +7,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Materi</h1>
+            <h1 class="m-0">Kursus</h1>
           </div><!-- /.col -->
          
         </div><!-- /.row -->
@@ -28,7 +28,21 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">{{$data->title}}</h5>
-                      <p class="card-text">{{$data->description}}</p>
+                      <p class="card-text pt-2">{{$data->description}}</p>
+                      <h5 class="card-title">Materi yang dapa dipelajari :</h5> 
+                    </div>
+                    <div class="card-footer">
+                        @if ($data->materials->isNotEmpty() )
+  
+                          <ul class="list-group list-group-flush">
+                              @foreach ($data->materials as $item)
+                                  
+                                  <li class="list-group-item">{{$item->title}}</li>
+                              @endforeach
+                          </ul>
+                        @else
+                          <p class="text-danger">Belum ada materi yang ditambahkan untuk course ini.</p>
+                        @endif
                     </div>
                   </div>
                 </div>

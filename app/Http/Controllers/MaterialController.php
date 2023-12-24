@@ -48,17 +48,22 @@ class MaterialController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Material $material)
+    public function edit($id)
     {
-        //
+        $active = 'edit';
+        $data = Material::findOrFail($id);
+        return view('material.material-edit', compact('data', 'active'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Material $material)
+    public function update(Request $request, $id)
     {
-        //
+        $data = Material::findOrFail($id);
+        
+        $data->update($request->all());
+        return redirect()->route('material.index');
     }
 
     /**

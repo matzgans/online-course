@@ -50,7 +50,7 @@
                         <td>{{$item->description}}</td> 
                         <td> 
                             <a href="#" onclick="confirmDelete('{{ $item->id }}')" class="btn btn-danger btn-sm mb-2"><i class="fas fa-trash"></i></a>
-                            <a href="/course/edit/{{$item->id}}" class="btn btn-warning btn-sm"><i class="fas fa-edit mb-2"></i></a>
+                            <a href="/material/edit/{{$item->id}}" class="btn btn-warning btn-sm"><i class="fas fa-edit mb-2"></i></a>
     
                         </td>
                     </tr>
@@ -82,7 +82,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="kursus" class="form-label">Course</label>
-                                <select class="form-select" aria-label="Default select example" name="course_id">
+                                <select class="form-control" aria-label="Default select example" name="course_id">
                                     <option selected>Jenis Kursus</option>
                                     @foreach ($passing as $item)
                                         

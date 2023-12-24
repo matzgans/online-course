@@ -25,7 +25,7 @@
                     <div class="card-title">Edit Course</div>
                 </div>
                 <div class="card-body">
-                    <form action="/course/update/{{$data->id}}" method="POST" enctype="multipart/form-data">
+                    <form action="/material/update/{{$data->id}}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
                           <label for="title" class="form-label">Title</label>
@@ -36,8 +36,11 @@
                           <input type="text" name="description" class="form-control" id="description" value="{{$data->description}}">
                         </div>
                         <div class="mb-3">
-                          <label for="duration" class="form-label">Duration</label>
-                          <input type="number" name="duration" class="form-control" id="duration" value="{{$data->duration}}">
+                            <label for="kursus" class="form-label">Course</label>
+                            <select class="form-control" aria-label="Default select example" name="course_id">
+                                <option value="{{$data->course_id}}">{{$data->course->title}}</option>
+                                
+                              </select>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>

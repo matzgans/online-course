@@ -53,7 +53,7 @@
                                 
                             <ul>
                                 @foreach ($item->materials as $item1)
-                                    <li>{{$item1->title}} <a href="/material/show/{{$item->id}}" class=""><i class="fas fa-eye"></i></a></li>
+                                    <li>{{$item1->title}} <a href="/material/show/{{$item1->id}}" class=""><i class="fas fa-eye"></i></a></li>
                                 @endforeach
                             </ul>
                             @else
@@ -64,6 +64,7 @@
                         <td>
                             <a href="#" onclick="confirmDelete('{{ $item->id }}')" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
                             <a href="/course/edit/{{$item->id}}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                            <a href="/course/show/{{$item->id}}" class="btn btn-success btn-sm"><i class="fas fa-eye"></i></a>
 
                         </td>
                     </tr>

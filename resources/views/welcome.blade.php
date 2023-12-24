@@ -7,12 +7,11 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v2</h1>
+            <h1 class="m-0">Welcome To Online Course</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard v2</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -25,40 +24,42 @@
       <div class="container-fluid">
         <!-- Info boxes -->
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-3">
-            <div class="info-box">
-              <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">CPU Traffic</span>
-                <span class="info-box-number">
-                  10
-                  <small>%</small>
-                </span>
+            <div class="col-sm-6 col-md-6 col-12">
+                <!-- small box -->
+                <div class="small-box bg-info">
+                  <div class="inner">
+                    <h3>{{$dataCourse}}</h3>
+    
+                    <p>Jumlah Kursus</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <a href="/course" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
               </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-3">
-            <div class="info-box mb-3">
-              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Likes</span>
-                <span class="info-box-number">41,410</span>
+            <div class="col-sm-6 col-md-6 col-12">
+                <!-- small box -->
+                <div class="small-box bg-warning">
+                  <div class="inner">
+                    <h3>{{$dataMateri}}</h3>
+    
+                    <p>Jumlah Materi</p>
+                  </div>
+                  <div class="icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <a href="/material" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
               </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
+          {{-- <div class="col-12 col-sm-6 col-md-6"> --}}
+           
           <!-- /.col -->
 
           <!-- fix for small devices only -->
-          <div class="clearfix hidden-md-up"></div>
+          {{-- <div class="clearfix hidden-md-up"></div>
 
-          <div class="col-12 col-sm-6 col-md-3">
+          <div class="col-12 col-sm-6 col-md-6">
             <div class="info-box mb-3">
               <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
 
@@ -69,9 +70,9 @@
               <!-- /.info-box-content -->
             </div>
             <!-- /.info-box -->
-          </div>
+          </div> --}}
           <!-- /.col -->
-          <div class="col-12 col-sm-6 col-md-3">
+          {{-- <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
               <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
 
@@ -82,12 +83,12 @@
               <!-- /.info-box-content -->
             </div>
             <!-- /.info-box -->
-          </div>
+          </div> --}}
           <!-- /.col -->
         </div>
         <!-- /.row -->
 
-        <div class="row">
+        {{-- <div class="row">
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
@@ -220,11 +221,11 @@
             <!-- /.card -->
           </div>
           <!-- /.col -->
-        </div>
+        </div> --}}
         <!-- /.row -->
 
         <!-- Main row -->
-        <div class="row">
+        {{-- <div class="row">
           <!-- Left col -->
           <div class="col-md-8">
             <!-- MAP & BOX PANE -->
@@ -850,7 +851,7 @@
             <!-- /.card -->
           </div>
           <!-- /.col -->
-        </div>
+        </div> --}}
         <!-- /.row -->
       </div><!--/. container-fluid -->
     </section>
