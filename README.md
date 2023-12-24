@@ -34,4 +34,4 @@ Berikut screnshoot dari Project tersebut :
 <img src="https://github.com/matzgans/online-course/assets/107374954/ae98c5fd-806f-4a80-81e4-4e589717e6b1.jpg" width="400" height="300">
 <br>
 <h4>Saat Ditekan Icon edit pada action</h4>
-<img src="https://github.com/matzgans/online-course/assets/107374954/d2828f49-2a9b-4654-a74d-d601de93c201.jpg" width="400" height="300">
+<img src="https://github.com/matzgans/online-course/assets/107374954/1948f785-9ffa-4611-aaea-da9d16ac7eb1.jpg" width="400" height="300">
