@@ -31,7 +31,7 @@ Berikut screnshoot dari Project tersebut :
 <h4>Saat Ditekan Icon Tambah Data pada menu Materi</h4>
 <img src="https://github.com/matzgans/online-course/assets/107374954/2869dd1b-0865-4f13-913d-8c75c4c644ce.jpg" width="400" height="300">
 <h4>Saat Ditekan Icon Deleted pada action</h4>
-<img src="https://github.com/matzgans/online-course/assets/107374954/035e9483-8e83-4c46-b8b1-b4c71cb44010.jpg" width="400" height="300">
+<img src="https://github.com/matzgans/online-course/assets/107374954/ae98c5fd-806f-4a80-81e4-4e589717e6b1.jpg" width="400" height="300">
 <br>
 <h4>Saat Ditekan Icon edit pada action</h4>
 <img src="https://github.com/matzgans/online-course/assets/107374954/d2828f49-2a9b-4654-a74d-d601de93c201.jpg" width="400" height="300">
