@@ -13,7 +13,7 @@ Berikut screnshoot dari Project tersebut :
 <img src="https://github.com/matzgans/online-course/assets/107374954/9c5db76b-79c5-4a6c-b84c-661e8bb6007a.jpg" width="400" height="300">
 <br>
 <h4>Saat Ditekan Icon Deleted pada action</h4>
-<img src="https://github.com/matzgans/online-course/assets/107374954/9c5db76b-79c5-4a6c-b84c-661e8bb6007a.jpg" width="400" height="300">
+<img src="https://github.com/matzgans/online-course/assets/107374954/035e9483-8e83-4c46-b8b1-b4c71cb44010.jpg" width="400" height="300">
 <br>
 <h4>Saat Ditekan Icon edit pada action</h4>
 <img src="https://github.com/matzgans/online-course/assets/107374954/9c5db76b-79c5-4a6c-b84c-661e8bb6007a.jpg" width="400" height="300">
