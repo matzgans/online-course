@@ -24,3 +24,9 @@ Berikut screnshoot dari Project tersebut :
 <h3>3. Menu Materi</h3>
 <p>Pada bagian Menu Materi ini terdapat, Fitur untuk melihat Materi,Menambahkan Materi, mengedit Materi, dan menghapus materi </p>
 <img src="https://github.com/matzgans/online-course/assets/107374954/15330f0f-8472-4cb6-b488-2e35b479d5d8.jpg" width="400" height="300">
+<br>
+<h4>Saat Ditekan Icon Deleted pada action</h4>
+<img src="https://github.com/matzgans/online-course/assets/107374954/035e9483-8e83-4c46-b8b1-b4c71cb44010.jpg" width="400" height="300">
+<br>
+<h4>Saat Ditekan Icon edit pada action</h4>
+<img src="https://github.com/matzgans/online-course/assets/107374954/d2828f49-2a9b-4654-a74d-d601de93c201.jpg" width="400" height="300">
