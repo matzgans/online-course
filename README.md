@@ -19,7 +19,7 @@ Berikut screnshoot dari Project tersebut :
 <img src="https://github.com/matzgans/online-course/assets/107374954/9c5db76b-79c5-4a6c-b84c-661e8bb6007a.jpg" width="400" height="300">
 <br>
 <h4>Saat Ditekan Icon show pada action</h4>
-<img src="https://github.com/matzgans/online-course/assets/107374954/9c5db76b-79c5-4a6c-b84c-661e8bb6007a.jpg" width="400" height="300">
+<img src="https://github.com/matzgans/online-course/assets/107374954/d2828f49-2a9b-4654-a74d-d601de93c201.jpg" width="400" height="300">
 <br>
 <h3>3. Menu Materi</h3>
 <p>Pada bagian Menu Materi ini terdapat, Fitur untuk melihat Materi,Menambahkan Materi, mengedit Materi, dan menghapus materi </p>
